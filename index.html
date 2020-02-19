@@ -15,7 +15,13 @@
         (function () {
             'use strict';
             document.addEventListener('DOMContentLoaded', function() {
-                alert('IE Detected');
+                let ua = window.navigator.userAgent;
+                let msie = ua.indexOf('MSIE ');
+                let trident = ua.indexOf('Trident/');
+                
+                if ( msie > 0 || trident > 0 ) {
+                    alert('IE Detected');
+                }
             });
         }());
     </script>

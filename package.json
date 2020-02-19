@@ -1,0 +1,23 @@
+{
+  "name": "ie-popup",
+  "version": "1.0.0",
+  "description": "Disable IE 11 or below to browse website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bishawjit-das/IE-Popup.git"
+  },
+  "keywords": [
+    "IE",
+    "Popup"
+  ],
+  "author": "Bishawjit Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bishawjit-das/IE-Popup/issues"
+  },
+  "homepage": "https://github.com/bishawjit-das/IE-Popup#readme"
+}
